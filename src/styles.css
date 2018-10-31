@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.inputBox {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}
+
+.timer {
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #000fff;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action {
+  display: inline-block;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.action-positive {
+  background-color: #000fff;
+  color: #ffffff;
+  border: 1px solid #000fff;
+}
+
+.action-positive[disabled] {
+  background-color: rgba(0, 15, 255, 0.5);
+}
+
+.action-negative {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.time-component {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.numberBox {
+  height: 30px;
+  width: 25px;
+  font-size: 25px;
+  color: grey;
+}
+.cursor {
+  border-right: 1px solid;
+}
